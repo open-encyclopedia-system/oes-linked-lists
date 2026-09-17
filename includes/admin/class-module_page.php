@@ -16,7 +16,8 @@ if (!class_exists('Linked_Lists_Module_Page')) :
     new Linked_Lists_Module_Page([
         'name' => 'Linked Lists',
         'schema_enabled' => false,
-        'file' => (__DIR__ . '/views/view-settings-linked-lists.php')
+        'file' => (__DIR__ . '/views/view-settings-linked-lists.php'),
+        'description' => 'Display a collection of objects as linked lists, based on the design of Marian Dörk.'
     ]);
 
 endif;

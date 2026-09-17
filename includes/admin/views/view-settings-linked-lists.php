@@ -10,7 +10,7 @@
         <p>
             <?php
             echo wp_kses_post(sprintf(
-                __('The design of OES Linked Lists is inspired by the personal website of <a href="%s" target="_blank" rel="noopener noreferrer">Marian Dörk</a>. For more information and access to the open source code, visit his website.', 'oes'),
+                __('The design of OES Linked Lists is inspired by the personal website of <a href="%s" target="_blank" rel="noopener noreferrer">Marian Dörk</a>. For more information and access to the open source code, visit his website.', 'oes-linked-lists'),
                 esc_url('https://mariandoerk.de/')
             ));
             ?>

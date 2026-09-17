@@ -216,7 +216,7 @@ class Renderer
     protected function get_list(): string
     {
         return oes_get_archive_loop_html([
-            'exclude-preview' => $this->options['exclude_preview'] ?? false,
+            'archive_data' => !($this->options['exclude_preview'] ?? false),
             'reverse-order' => true,
             'alphabet' => false,
             'render_function' => '\OES\Linked_Lists\archive_list_html'

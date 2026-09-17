@@ -35,7 +35,7 @@ function html($args): string
 {
     global $oes_linked_list_args;
     $oes_linked_list_args = $args;
-    $class = oes_get_project_class_name('\OES\Linked_Lists\Renderer');
+    $class = oes_get_application_class_name('\OES\Linked_Lists\Renderer');
     $renderer = new $class($args);
     return $renderer->render();
 }
