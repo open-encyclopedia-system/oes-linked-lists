@@ -1,10 +1,13 @@
-# OES Linked Lists Module
+# Open Encyclopedia System — Linked Lists Module
 
 This repository contains the **OES Linked Lists** module for the
 [Open Encyclopedia System (OES)](https://github.com/open-encyclopedia-system/oes-core) framework. It provides a
 visualisation feature that displays content as **linked lists**, enabling intuitive exploration of thematic and
 relational content. The design of OES Linked Lists is inspired by the personal website of
 [Marian Dörk](https://mariandoerk.de/).
+
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/open-encyclopedia-system/oes-linked-lists/graphs/commit-activity)
 
 For general information about OES — what it is, its features, citation, contributing, credits, and licensing —
 see the [OES Core README](https://github.com/open-encyclopedia-system/oes-core#readme).
@@ -18,10 +21,10 @@ A typical OES application consists of:
 
 This module depends on:
 
-| Component | Version | Source |
-|---|---|---|
-| OES Core | `2.3.3` or later | [oes-core](https://github.com/open-encyclopedia-system/oes-core) |
-| Advanced Custom Fields (ACF) | `6.3.4` | [advancedcustomfields.com](https://www.advancedcustomfields.com) |
+| Component                    | Version   | Source                                                           |
+|------------------------------|-----------|------------------------------------------------------------------|
+| OES Core                     | `≥ 2.3.3` | [oes-core](https://github.com/open-encyclopedia-system/oes-core) |
+| Advanced Custom Fields (ACF) | `≥ 6.3.4` | [advancedcustomfields.com](https://www.advancedcustomfields.com) |
 
 ## Documentation
 
@@ -43,7 +46,15 @@ For information about available modules, customization options, or help launchin
 For general OES information — contributing and credits — see the
 [OES Core README](https://github.com/open-encyclopedia-system/oes-core#readme).
 
+## Credits
+
+Developed by:
+**Digitale Forschungsinfrastrukturen**, Freie Universität Berlin (FUB-IT)
+Funded by: **German Research Foundation (DFG)**
+
+For more detailed credits see [CREDITS.md](./CREDITS.md).
+
 ## Licensing
 
 This software is licensed under the **GNU General Public License (GPL v2 or later)**. See [LICENSE.txt](./LICENSE.txt)
-for the full license terms, or [https://www.gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+for the full license terms, or [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html).
